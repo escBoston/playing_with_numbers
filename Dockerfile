@@ -1,4 +1,4 @@
 FROM python:3.7-alpine
 WORKDIR /src/test
-COPY test_service.py .
+COPY *.py ./
 CMD ["python", "test_service.py"]
